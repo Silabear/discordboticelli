@@ -80,7 +80,7 @@ bot.on("message", message => {
       );
       if (!person) return message.reply("Could not find member");
 
-      let mainrole = message.guild.roles.find(role => role.name === "Bears");
+      let mainrole = message.guild.roles.find(role => role.name === "all of ya");
       let muterole = message.guild.roles.find(role => role.name === "Muted");
 
       if (!muterole) return message.reply("Could not find role * **Muted** *.");0
